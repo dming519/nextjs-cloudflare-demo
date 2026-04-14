@@ -7,6 +7,10 @@ node_modules
 .next
 out
 .vercel
+dist
+
+# Wrangler local state
+.wrangler
 
 # Misc
 .DS_Store

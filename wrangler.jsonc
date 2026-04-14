@@ -8,13 +8,13 @@
     {
       "binding": "DB",
       "database_name": "nextjs-demo-d1",
-      "database_id": "your-d1-database-id"
+      "database_id": "fa9192ad-03b3-472d-bd5c-c137a9da2658"
     }
   ],
   "kv_namespaces": [
     {
       "binding": "KV",
-      "id": "your-kv-namespace-id"
+      "id": "b7e6314fa3bc4fe6a5ebab5081d8ab9d"
     }
   ],
   "r2_buckets": [

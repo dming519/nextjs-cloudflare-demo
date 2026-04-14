@@ -1,0 +1,26 @@
+{
+  "name": "nextjs-cloudflare-demo",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "pages:dev": "wrangler pages dev dist --compatibility-date=2024-01-01 --compatibility-flags=nodejs_compat --local",
+    "pages:deploy": "wrangler pages deploy dist",
+    "cf-typegen": "wrangler types"
+  },
+  "dependencies": {
+    "next": "^15.2.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20240821.1",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "typescript": "^5",
+    "wrangler": "^4.82.2"
+  }
+}
